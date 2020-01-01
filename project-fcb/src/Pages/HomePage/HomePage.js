@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './HomePage.scss';
-import NavBar from '../../Components/NavBar/NavBar'
+import NavBar from '../../Components/NavBar/NavBar';
+import Heading from '../../Components/Heading/Heading';
+import Intro from '../../Components/Intro/Intro';
 
 class HomePage extends Component {
   state = {  }
@@ -8,9 +10,9 @@ class HomePage extends Component {
     return ( 
       <div className='container'>
         <NavBar className='navBar'></NavBar>
-        <div className='welcome'></div>
-        <div className='badge'></div>
-        <div className='intro'></div>
+        <Heading className='welcome'></Heading>
+        <div className='stadium'></div>
+        <Intro className='intro'></Intro>
         <div className='lastGames'></div>
         
       </div>
