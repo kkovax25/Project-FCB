@@ -18,9 +18,10 @@
   height: 120px;
 }
 .stadium{
-  border: $border;
-  grid-column: 8/11;
-  grid-row: 3/5;
+  grid-column: 7/11;
+  grid-row: 2/4;
+  width: 100%;
+  margin-top: 30px;
 }
 .intro{
   grid-column: 3/6;

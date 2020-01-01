@@ -3,6 +3,7 @@ import './HomePage.scss';
 import NavBar from '../../Components/NavBar/NavBar';
 import Heading from '../../Components/Heading/Heading';
 import Intro from '../../Components/Intro/Intro';
+import Stadium from '../../Components/Stadium/Stadium';
 
 class HomePage extends Component {
   state = {  }
@@ -11,7 +12,7 @@ class HomePage extends Component {
       <div className='container'>
         <NavBar className='navBar'></NavBar>
         <Heading className='welcome'></Heading>
-        <div className='stadium'></div>
+        <Stadium className='stadium'></Stadium>
         <Intro className='intro'></Intro>
         <div className='lastGames'></div>
         
