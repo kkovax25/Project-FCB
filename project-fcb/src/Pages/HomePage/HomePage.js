@@ -4,6 +4,7 @@ import NavBar from '../../Components/NavBar/NavBar';
 import Heading from '../../Components/Heading/Heading';
 import Intro from '../../Components/Intro/Intro';
 import Stadium from '../../Components/Stadium/Stadium';
+import LastGames from '../../Components/LastGames/LastGames';
 
 class HomePage extends Component {
   state = {  }
@@ -14,7 +15,7 @@ class HomePage extends Component {
         <Heading className='welcome'></Heading>
         <Stadium className='stadium'></Stadium>
         <Intro className='intro'></Intro>
-        <div className='lastGames'></div>
+        <LastGames className='lastGames'></LastGames>
         
       </div>
     );
