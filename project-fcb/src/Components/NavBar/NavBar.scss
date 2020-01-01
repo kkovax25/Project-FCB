@@ -1,0 +1,21 @@
+@import '../Sass-variables/variables';
+
+.navUl {
+  list-style-type: none;
+  background-color: $badgeYellow;
+  @include flexCenter(row);
+  justify-content: space-evenly;
+  height: 80%;
+  border-radius: 5px;
+}
+
+.navLi a {
+  display: block;
+  color: $blau;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.navLi a:hover {
+  color: $grana;
+}
