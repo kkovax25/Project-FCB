@@ -1,0 +1,32 @@
+$badgeYellow: #edbb00;
+$blau: #004d98;
+$grana: #a50044;
+$bannerFont: 'Montserrat Subrayada', sans-serif;
+$h1Size: 60px;
+$border: 1px solid black;
+
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin shine() {
+  mask-image: linear-gradient(
+    -75deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    #000 50%,
+    rgba(0, 0, 0, 0.6) 70%
+  );
+  mask-size: 200%;
+  animation: shine 1.8s infinite;
+  @keyframes shine {
+    from {
+      mask-position: 150%;
+    }
+    to {
+      mask-position: -50%;
+    }
+  }
+}
