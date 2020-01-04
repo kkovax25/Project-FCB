@@ -12,6 +12,7 @@ $border: 1px solid black;
   flex-direction: $direction;
 }
 
+
 @mixin shine() {
   mask-image: linear-gradient(
     -75deg,

@@ -4,7 +4,7 @@ import NavBar from '../../Components/NavBar/NavBar';
 import Heading from '../../Components/Heading/Heading';
 import Intro from '../../Components/Intro/Intro';
 import Stadium from '../../Components/Stadium/Stadium';
-import LastGames from '../../Components/LastGames/LastGames';
+import LastGames from '../../Components/LastGames/LastGamesFetch';
 
 class HomePage extends Component {
   state = {  }

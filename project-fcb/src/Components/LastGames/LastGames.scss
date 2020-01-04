@@ -1,0 +1,30 @@
+@import '../Sass-variables/variables';
+
+
+.lastGames{
+  color: $badgeYellow;
+  border: 1px solid $badgeYellow;
+  border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+
+  h1,.date{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .lastGameCont{
+    @include flexCenter(row);
+    margin-bottom: 6px;
+
+    div{
+      margin-right: 10px;
+    }
+    div:last-child,div:nth-child(3){
+      margin-right: 0;
+    }
+  }
+img{
+  height: 25px;
+  width: auto;
+}
+
+}
