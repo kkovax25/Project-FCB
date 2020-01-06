@@ -15,7 +15,7 @@ class Banner extends Component {
             src='/img/fcblogo.svg'
             alt='Fc Barcelona Badge'
           ></img>
-          <a href='http://localhost:3000/home'>
+          <a href='/home'>
             <Button
               className='button homeButton'
               innerText='Continue to the site'

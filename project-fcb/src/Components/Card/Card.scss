@@ -1,0 +1,21 @@
+@import '../Sass-variables/variables';
+
+.cardCont {
+  width: 150px;
+  height: 200px;
+  @include flexCenter(column);
+  border-radius: 10px;
+  box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.28);
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background: $badgeYellow;
+  &:hover{
+    color: $grana;
+    cursor: pointer;
+  }
+}
+
+.cardContImg {
+  height: 35%;
+}
+

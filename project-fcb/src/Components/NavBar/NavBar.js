@@ -7,18 +7,18 @@ class NavBar extends Component {
       <div className={this.props.className}>
         <ul className='navUl'>
           <li className='navLi'>
-            <a className='active' href='#home'>
+            <a className='active' href='/home'>
               Home
             </a>
           </li>
           <li className='navLi'>
-            <a href='#news'>History</a>
+            <a href='/history'>History</a>
           </li>
           <li className='navLi'>
-            <a href='#contact'>Players</a>
+            <a href='/players'>Players</a>
           </li>
           <li className='navLi'>
-            <a href='#about'>Fixtures</a>
+            <a href='/fixtures'>Fixtures</a>
           </li>
         </ul>
       </div>

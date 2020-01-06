@@ -1,0 +1,16 @@
+@import '../../Components/Sass-variables/variables';
+
+.selector{
+  width: 100%;
+  grid-column: 4/10;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.leagueTable{
+  grid-column: 4/10;
+  grid-row: 3/8;
+}

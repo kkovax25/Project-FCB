@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import LandingPage from './Pages/LandingPage/LandingPage';
-// import NavBar from './Components/NavBar/NavBar';
 import HomePage from './Pages/HomePage/HomePage';
+import Fixtures from './Pages/Fixtures/Fixtures';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Router>
       <Route path='/' exact component={LandingPage} />
       <Route path='/home' exact component={HomePage} />
+      <Route path='/fixtures' exact component={Fixtures}/>
       </Router>
     </div>
   );
